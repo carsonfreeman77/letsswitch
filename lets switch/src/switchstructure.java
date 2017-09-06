@@ -53,7 +53,7 @@ public class switchstructure {
 		System.out.println("Hello I am the magic 8 ball! \nAsk me something...");
 			
 		Scanner userInp = new Scanner(System.in);
-		int ball = (int)Math.ceil(Math.random()*5);
+		int ball = (int)Math.ceil(Math.random()*6);
 		String a = userInp.nextLine();
 		
 		
@@ -61,27 +61,27 @@ public class switchstructure {
 		switch (ball) 
 		{
 		
-		case 1:
+		case 2:
 		{
 			System.out.println("I didnt quite get that... ask again");
 			break;
 		}
-		case 2:
+		case 3:
 		{
 			System.out.println("I believe so... ");
 			break;
 		}
-		case 3:
+		case 4:
 		{
 			System.out.println("Hmmmmmmm");
 			break;
 		}
-		case 4:
+		case 5:
 		{
 			System.out.println("Your wish is my command");
 			break;
 		}
-		case 5:
+		case 6:
 		{
 			System.out.println("Yes!!!!");
 			break;
